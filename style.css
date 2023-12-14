@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html::-webkit-scrollbar{
+    width: 10px;
+}
+html::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: tomato;
+    border-radius: 10px;
+}
+
+
+
+
+/* navbar */
+#navbar{
+    background-color: transparent;
+    padding: 0px 9% 0px;
+
+}
+
+.nav-item .nav-link{
+    
+    transition: all 0.5s;
+}
+#logo img{
+    width: 190px;
+    padding: 0px 9% 0px;
+}
+.nav-item .nav-link:hover {
+    color: tomato !important;
+}
+/* #btn{
+    border-radius: 5px;
+    padding: 5px;
+    color: tomato;
+    border: 1px solid tomato;
+    background: transparent;
+
+}
+#btn:hover{
+    background-color: tomato;
+    color: white;
+} */
+/* navbar end */
+
+
+/* home start */
+.home{
+    
+    padding: 5px 11% 80px;
+   
+}
+.home .img{
+    flex: 1 1 300px;
+}
+.home .img img{
+    margin-left: 60px;
+}
+.home-content{
+    flex: 1 1 400px;
+    margin-top: 30px;
+}
+.home-content h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* home end*/
+@media  screen and (max-width: 870px) {
+    .home.img img{
+        margin-left: 0;
+    
+    }
+    
+}
+
+.top-section{
+    padding: 10px 11% 100px;
+}
+.top-section .row .card img{
+    width: 200px;
+}
+/* top-section-end */
+
+/* our-menu start */
+.menu {
+    padding: 100px 11% 100px;
+    
+}
+.crd i{
+    
+    margin-left: 100px;
+}
+.menu .row .card img{
+    width: 200px;
+}
+.our-section{
+    padding: 100px 11% 100px;
+}
+.order{
+    padding: 100px 11% 100px;
+}
+.order textarea{
+    resize: none;
+}
+.review{
+    padding: 100px 11% 100px;
+}
+.contact{
+    padding: 100px 11% 100px;
+}
+#comment{
+    resize: none;
+}
+
+footer{
+    padding: 100px 11% 70px;
+}
+footer img{
+    width: 250px;
+}
+.f-content{
+    cursor: pointer;
+}
+.f-content i:hover{
+    background-color: tomato;
+    color: white;
+}
+.f-content i{
+    transition:0.3s ;
+}
